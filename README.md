@@ -1,3 +1,13 @@
+[![Xnuvers007 - windows](https://img.shields.io/static/v1?label=Xnuvers007&message=windows&color=blue&logo=github)](https://github.com/Xnuvers007/windows "Go to GitHub repo")
+[![stars - windows](https://img.shields.io/github/stars/Xnuvers007/windows?style=social)](https://github.com/Xnuvers007/windows)
+[![forks - windows](https://img.shields.io/github/forks/Xnuvers007/windows?style=social)](https://github.com/Xnuvers007/windows)
+[![GitHub tag](https://img.shields.io/github/tag/Xnuvers007/windows?include_prereleases=&sort=semver&color=blue)](https://github.com/Xnuvers007/windows/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+![top lang](https://img.shields.io/github/languages/top/Xnuvers007/windows?logo=python&logoColor=red)
+![code size](https://img.shields.io/github/repo-size/Xnuvers007/windows?logo=github&logoColor=blue)
+![last commit](https://img.shields.io/github/last-commit/Xnuvers007/windows)
+![release date](https://img.shields.io/github/release-date/Xnuvers007/windows?color=blue)
+
 # windows
 this is bat script for command prompt, ini adalah script untuk command prompt windows
 
