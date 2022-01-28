@@ -3,7 +3,7 @@
 [![forks - windows](https://img.shields.io/github/forks/Xnuvers007/windows?style=social)](https://github.com/Xnuvers007/windows)
 [![GitHub tag](https://img.shields.io/github/tag/Xnuvers007/windows?include_prereleases=&sort=semver&color=blue)](https://github.com/Xnuvers007/windows/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
-![top lang](https://img.shields.io/github/languages/top/Xnuvers007/windows?logo=python&logoColor=red)
+![top lang](https://img.shields.io/github/languages/top/Xnuvers007/windows?logo=batch&logoColor=red)
 ![code size](https://img.shields.io/github/languages/code-size/xnuvers007/windows)
 ![last commit](https://img.shields.io/github/last-commit/Xnuvers007/windows)
 ![release date](https://img.shields.io/github/release-date/Xnuvers007/windows?color=blue)
