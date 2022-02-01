@@ -36,16 +36,16 @@ cls
 
 cls
 
-echo update 25 Jan 2022
+echo update 2 Feb 2022 at 00:00 AM
 
 @echo.
 echo CHANGELOG:
 @echo.
-echo 1. remove mode con:cols=110 lines=15
-echo 2. add auto Run As Administrator without Run As Administrator from user
-echo 3. Wifi password viewer
-echo 4. Youtube Downloader Mp3/Mp4
-echo 5. Add English Language
+echo 1. windows version
+echo 2. Microsoft spec info your PC
+echo 3. Hidden / unhidden Folder with files
+echo 4. Network statistics
+echo 5. Trace Route networking
 @echo.
 
 echo enter for continue
@@ -76,11 +76,18 @@ echo 4. Scan Harddisk
 echo 5. System Info
 echo 6. Wifi Password Viewer
 echo 7. Youtube Downloader Mp3/Mp4
+echo 8. Show windows version
+echo 9. Microsoft Info Spec your PC
+echo A. Hidden and unhidden folder
+echo B. Network Statistics
+echo C. Trace Route
 
-set choice=
+@echo.
+
 set /p choice="Menu : "
 
-if not '%choice%'=='' set choice=%choice:~0,1%
+cls
+
 if '%choice%'=='1' goto :bat
 if '%choice%'=='2' goto :remo
 if '%choice%'=='3' goto :netw
@@ -89,6 +96,14 @@ if '%choice%'=='5' goto :sysinfo
 if '%choice%'=='0' goto :exit
 if '%choice%'=='6' goto :wf
 if '%choice%'=='7' goto :youtube
+if '%choice%'=='8' goto :version
+if '%choice%'=='9' goto :msinfo32
+if '%choice%'=='A' goto :attrib
+if '%choice%'=='a' goto :attrib
+if '%choice%'=='B' goto :netstat
+if '%choice%'=='b' goto :netstat
+if '%choice%'=='C' goto :tracert
+if '%choice%'=='c' goto :tracert
 echo "%choice%" Invalid, try again | gagal, coba lagi
 
 echo.
@@ -350,3 +365,97 @@ echo This is an empty file in the folder setting, please fill out correctly all 
 echo.
 pause
 goto yt
+
+:version
+echo your Windows version is
+@echo.
+ver
+@echo.
+pause
+goto start
+
+:msinfo32
+msinfo32
+@echo.
+pause
+goto start
+
+:attrib
+echo the folder hidden and unhidden named Xnuvers007 in C:\Xnuvers007
+echo.
+echo enter to continue
+pause
+if not exist "C:\Xnuvers007" md "C:\Xnuvers007"
+set ask=
+set /p ask="Do you Want to show / hidden ? S/H : "
+if not '%ask%'=='' set ask=%ask:~0,1%
+if '%ask%'=='S' goto :show
+if '%ask%'=='s' goto :show
+if '%ask%'=='h' goto :hidden
+if '%ask%'=='H' goto :hidden
+echo "%ask%" Invalid, try again | gagal, coba lagi
+
+:show
+attrib -h -s -r "C:\Xnuvers007"
+echo the folder has been showed/unhidden
+@echo.
+pause
+goto start
+
+:hidden
+attrib +h +s +r "C:\Xnuvers007"
+echo the folder has been hidden
+@echo.
+pausenote
+goto start
+
+:netstat
+echo wait until finished
+@echo.
+netstat
+pause
+goto start
+
+:tracert
+echo this is menu for trace route your network
+@echo.
+echo ============ LISTS ===============
+echo	2	Normal (Recommended)
+echo	4	Force using IPv4.
+echo	6	Force using IPv6.
+echo ==================================
+@echo.
+set /p tra="Choice : "
+if '%tra%'=='2' goto :ip
+if '%tra%'=='4' goto :ip4
+if '%tra%'=='6' goto :ip6
+echo "%tra%" Invalid, try again | gagal, coba lagi
+
+:ip
+echo wait until finished
+@echo.
+set /p tar="enter the target : "
+tracert %tar%
+@echo.
+pause
+goto start
+
+:ip4
+echo wait until finished
+@echo.
+set /p tar2="enter the target : "
+tracert %tar2% -4
+@echo.
+pause
+goto start
+
+:ip6
+echo wait until finished
+@echo.
+set tar3=
+set /p tar3="enter the target : "
+if not'%tar3%'=='' set tar3=%tar3:~0,1%
+tracert %tar3% -6
+@echo
+pause
+goto start
