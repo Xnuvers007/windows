@@ -8,12 +8,17 @@
 ![last commit](https://img.shields.io/github/last-commit/Xnuvers007/windows)
 ![release date](https://img.shields.io/github/release-date/Xnuvers007/windows?color=blue)
 
+# CHANGELOGS
+
+![image](https://user-images.githubusercontent.com/62522733/152030724-29021511-a851-4bed-aa7c-b7f0b8e733c5.png "gambar")
+
+
 # windows
 this is bat script for command prompt, ini adalah script untuk command prompt windows
 
 u can pull requests for another command , kamu bisa requests untuk command yang lain
 
-![image](https://user-images.githubusercontent.com/62522733/150860685-1794e808-a3fc-43bb-bd90-01ceef783ef0.png "gambar")
+![image](https://user-images.githubusercontent.com/62522733/152030898-d308fe3e-9310-4f89-ab47-2c8a07a283c8.png  "gambar")
 
 Penggunaan / usage :
 
