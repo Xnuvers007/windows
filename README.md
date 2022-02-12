@@ -18,7 +18,7 @@ this is bat script for command prompt, ini adalah script untuk command prompt wi
 
 u can pull requests for another command , kamu bisa requests untuk command yang lain
 
-![image](https://user-images.githubusercontent.com/62522733/152030898-d308fe3e-9310-4f89-ab47-2c8a07a283c8.png  "gambar")
+![image](https://user-images.githubusercontent.com/62522733/153710014-6ff1b277-332e-4b73-b8df-25b1a802659a.png "gambar")
 
 Penggunaan / usage :
 
