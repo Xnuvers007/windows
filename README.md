@@ -10,7 +10,7 @@
 
 # CHANGELOGS
 
-![image](https://user-images.githubusercontent.com/62522733/152030724-29021511-a851-4bed-aa7c-b7f0b8e733c5.png "gambar")
+![image]![image](https://user-images.githubusercontent.com/62522733/153709708-78eb38c0-1b77-4c2b-8919-f527801fac4f.png "gambar")
 
 
 # windows
