@@ -12,6 +12,7 @@
 
 ![image](https://user-images.githubusercontent.com/62522733/153709708-78eb38c0-1b77-4c2b-8919-f527801fac4f.png "gambar")
 
+Usage : just double click windows.bat or in folder application double click windowsXX.exe
 
 # windows
 this is bat script for command prompt, ini adalah script untuk command prompt windows
